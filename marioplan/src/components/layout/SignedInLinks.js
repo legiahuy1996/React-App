@@ -5,7 +5,7 @@ const SignedInLinks = () => {
     return (
         <ul className="right">
             <li>
-                <NavLink to='/'>New Project</NavLink>
+                <NavLink to='/Create'>New Project</NavLink>
             </li>
             <li>
                 <NavLink to='/'>Log Out</NavLink>
