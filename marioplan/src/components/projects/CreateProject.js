@@ -15,7 +15,6 @@ class CreateProject extends Component {
   }
   handleSubmit = (e) => {
     e.preventDefault();
-    // console.log(this.state);
     this.props.createProject(this.state);
   }
   render() {
@@ -51,7 +50,8 @@ const mapDispatchToProps = dispatch => {
 
 const mapStateToProps = state => {
   return {
-    auth: state.firebase.auth 
+    auth: state.firebase.auth,
+    profile: state.firebase.profile
   }
 }
 
